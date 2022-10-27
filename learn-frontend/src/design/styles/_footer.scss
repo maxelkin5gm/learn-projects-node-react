@@ -1,0 +1,46 @@
+.footer {
+  margin-top: 155px;
+  padding: 119px 0 187px 0;
+
+  color: white;
+  background: #0E1D28;
+
+  @media (max-width: 600px) {
+    padding: 50px 0;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 600px) {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 30px;
+      text-align: center;
+    }
+
+
+    & > div {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  a {
+    font-size: 16px;
+
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+
+  img {
+    height: 64px;
+  }
+
+}

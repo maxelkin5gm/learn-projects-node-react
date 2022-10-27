@@ -1,0 +1,14 @@
+.inputForm {
+  padding: 15px;
+  min-width: 400px;
+
+  font-size: 20px;
+  border: none;
+  background: #f1f1f1;
+
+
+  &:active, &:focus {
+    outline: none;
+    background: #d0d0d0;
+  }
+}

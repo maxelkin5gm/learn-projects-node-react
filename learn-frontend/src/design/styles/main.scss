@@ -1,0 +1,21 @@
+@import "reset";
+
+@import "wrappers";
+@import "sections/section1";
+@import "sections/section2";
+@import "sections/section3";
+@import "footer";
+
+
+.link {
+  display: flex;
+  column-gap: 26px;
+
+  font-size: 16px;
+  color: #006DFE;
+  transition: opacity .2s;
+
+  &:hover {
+    opacity: 0.65;
+  }
+}
